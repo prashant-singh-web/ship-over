@@ -40,8 +40,8 @@
 
 /* globle css */
 .bg-image{
-  @apply fixed w-full h-[50rem] md:h-[70rem] lg:h-full   object-cover  -z-10
+  @apply fixed w-full h-full md:h-[70rem] lg:h-full   object-cover  -z-10
 }
 .img-content-box{
-  @apply w-full  h-[50vh] md:h-[80vh] lg:h-[100vh]  bg-blue-950/50 flex flex-col justify-center items-center px-8 sm:px-16 md:px-36 lg:px-56 space-y-6
+  @apply w-full  h-[100vh] md:h-[80vh] lg:h-[100vh]  bg-blue-950/50 flex flex-col justify-center items-center px-8 sm:px-16 md:px-36 lg:px-56 space-y-6
 }
