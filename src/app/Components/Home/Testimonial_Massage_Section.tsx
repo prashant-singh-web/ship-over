@@ -41,11 +41,11 @@ function Testimonial_Massage_Section() {
   }, [current]);
   
   return (
-    <div className="w-full flex flex-col space-y-4 justify-center items-center md:items-start md:justify-normal ">
+    <div data-aos="fade-right" className="w-full flex flex-col space-y-4 justify-center items-center md:items-start md:justify-normal ">
       <h5 className="text-xs font-semibold text-gray-300">TESTIMONIALS</h5>
       <h2 className="text-3xl font-black">Happy Customer</h2>
       <div className="w-full h-fit overflow-hidden">
-      <div className={`w-full md:w-3/4 h-[25rem] md:h-[20rem] mx-auto md:mx-0
+      <div className={`w-full md:w-3/4 min-h-[25rem]  mx-auto md:mx-0
        flex flex-col py-10 justify-center items-center p-5 space-y-2`}>
         <Image
           src={testimonialJson[current]?.logo}
@@ -64,8 +64,8 @@ function Testimonial_Massage_Section() {
       </div>
       <div className="flex flex-row  justify-evenly w-3/4">
         <div className="flex flex-row space-x-2">
-          <button onClick={handlePrev} className="text-gray-500 text-xl border border-gray-500 p-2 rounded-md hover:bg-gray-100"><FaArrowLeft/></button>
-          <button onClick={handleNext} className="text-gray-500 text-xl border border-gray-500 p-2 rounded-md hover:bg-gray-100"><FaArrowRight/></button>
+          <button onClick={handlePrev} className="text-gray-500 text-xl shadow p-2 rounded-md hover:bg-gray-100"><FaArrowLeft/></button>
+          <button onClick={handleNext} className="text-gray-500 text-xl shadow p-2 rounded-md hover:bg-gray-100"><FaArrowRight/></button>
         </div>
       
       </div>

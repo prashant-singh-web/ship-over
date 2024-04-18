@@ -4,9 +4,9 @@ import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 
 function Footer_Section() {
   return (
-    <div className="w-full flex space-y-10 flex-col p-10 bg-gray-100">
+    <div className="w-full flex space-y-10 flex-col p-10 bg-gray-100 overflow-hidden">
       <div className="w-full grid gap-5 grid-cols-2 md:grid-cols-12 ">
-        <div className=" col-span-2 md:col-span-4  flex flex-col space-y-4">
+        <div data-aos="fade-right" className=" col-span-2 md:col-span-4  flex flex-col space-y-4">
           <h2 className="text-lg font-bold">About ShipOver</h2>
           <p className="text-sm text-gray-400">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id modi
@@ -28,7 +28,7 @@ function Footer_Section() {
             </a>
           </div>
         </div>
-        <div className="w-full col-span-1 md:col-span-2 flex flex-col px-3 space-y-2">
+        <div data-aos="zoom-in-up"  className="w-full col-span-1 md:col-span-2 flex flex-col px-3 space-y-2">
           <h2 className="nav-heading">Links</h2>
           <Link
             href="/"
@@ -55,7 +55,7 @@ function Footer_Section() {
             Contact
           </Link>
         </div>
-        <div className="w-full col-span-1 md:col-span-2 flex flex-col px-3 space-y-2">
+        <div data-aos="zoom-in-up"  className="w-full col-span-1 md:col-span-2 flex flex-col px-3 space-y-2">
           <h2 className="nav-heading">Company</h2>
           <a
             href="/#"
@@ -82,14 +82,14 @@ function Footer_Section() {
             Contact
           </a>
         </div>
-        <div className="w-full col-span-2 md:col-span-4 flex flex-col space-y-3">
+        <div data-aos="fade-left" className="w-full col-span-2 md:col-span-4 flex flex-col space-y-3">
             <h1 className="nav-heading text-white">Contact Us</h1>
             <p className="nav-Link">43 Raymouth Rd. Baltemoer, London 3910</p>
             <p className="nav-Link">+91-7652021778</p>
             <p className="nav-Link">prashantsingh7559@gmail.com</p>
         </div>
       </div>
-      <p className="text-xs md:text-sm text-center text-gray-600 mt-2 border-t pt-3">
+      <p data-aos="fade-right" className="text-xs md:text-sm text-center text-gray-600 mt-2 border-t pt-3">
         Copyright ©2024 All rights reserved | This template is made by Prashant
         Singh in next Js
       </p>

@@ -56,11 +56,11 @@ function AboutUs_Team_Section() {
   ];
   return (
     <div className="bg-white w-full  flex flex-col justify-center items-center pt-10 ">
-      <h4 className="text-xs font-bold text-gray-500 my-2">AWESOME TEAM</h4>
-      <h2 className="text-2xl font-bold">TEAM</h2>
+      <h4 data-aos="zoom-in-up"  className="text-xs font-bold text-gray-500 my-2">AWESOME TEAM</h4>
+      <h2 data-aos="zoom-in-up"  className="text-2xl font-bold">TEAM</h2>
       <div className="grid w-full gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:mt-20 p-10">
         {teamJson.map((team) => (
-          <div key={team?.id} className="w-full flex flex-col  p-5 shadow rounded-lg">
+          <div data-aos="zoom-in-up" data-aos-duration="1500" key={team?.id} className="w-full flex flex-col  p-5 shadow rounded-lg">
             <Image
               src={team?.logo}
               alt="logo"

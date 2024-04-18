@@ -4,7 +4,7 @@ import { FaPlus } from "react-icons/fa";
 function WhyUs_Section() {
   const [dropdown, setDropdown] = useState("");
   return (
-    <div className="w-full flex flex-col justify-center items-center md:justify-normal md:items-start py-10 md:py-0 space-y-4">
+    <div data-aos="fade-left" className="w-full  flex flex-col justify-center items-center md:justify-normal md:items-start py-10 md:py-0 space-y-4">
       <h5 className="text-xs font-semibold text-gray-300">WHY US</h5>
       <h2 className="text-3xl font-black">Why Choose Us</h2>
       <div className="flex flex-col">

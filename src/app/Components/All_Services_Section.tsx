@@ -45,13 +45,13 @@ function All_Services_Section() {
     ]
   return (
   
-    <div className="bg-white w-full  flex flex-col justify-center items-center pt-10 md:pt-0">
-    <h4 className="text-xs font-bold text-gray-500 my-2">Our Services</h4>
-    <h2 className="text-2xl font-bold">SERVICES</h2>
+    <div className="bg-white w-full  flex flex-col justify-center items-center pt-10 md:pt-20">
+    <h4 data-aos="zoom-in-up"  className="text-xs font-bold text-gray-500 my-2">Our Services</h4>
+    <h2 data-aos="zoom-in-up"  className="text-2xl font-bold">SERVICES</h2>
     <div className="w-full p-5 md:p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 bg-white">
         {
             servicesJson.map(services => (
-                <div key={services?.id} className="w-full flex flex-col p-5 space-y-2  rounded-md shadow-md">
+                <div data-aos="zoom-in-up" data-aos-duration="1500"  key={services?.id} className="w-full flex flex-col p-5 space-y-2  rounded-md shadow-md">
             <Image src={services?.logoImg} alt="logoimg" className='size-28' width={0} height={0} unoptimized/>
             <h2 className='text-base font-black text-black/85'>{services?.servicesType}</h2>
             <p className='text-sm leading-5 text-black/70'>{services?.description}</p>
